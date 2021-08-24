@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 
 const Hero = props => (
     <header className={styles.component}>
-        <img className={styles.image} src="http://uploads.kodilla.com/bootcamp/fer/11.react/space.png" />
         <h2 className={styles.title}>{props.titleText}</h2>
+        <img className={styles.image} src={props.imageSource} />
     </header>
 );
 

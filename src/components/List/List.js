@@ -7,6 +7,11 @@ import {settings} from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
 
 class List extends React.Component {
+  
+  state = {
+    columns: this.props.columns || [],
+  }
+  
   static propTypes = {
     title: PropTypes.node.isRequired,
     description: PropTypes.node,
@@ -24,9 +29,9 @@ class List extends React.Component {
         <Hero titleText={this.props.title} imageSource={this.props.source}/>
         <div className={styles.description}>{ReactHtmlParser(this.props.description)}</div>
         <div className={styles.columns}>
-          <Column title='First' />
-          <Column title='Second' />
-          <Column title='Third' />
+          {this.state.columns.map(({key, ...columnProps}) => ( //metoda .map działa jak pętla - komponent Column zostanie użyty raz; key - klucz, wyrażenie nadane każdej kolumnie
+            <Column key={key} {...columnProps} />
+          ))}
         </div>
       </section>
     )

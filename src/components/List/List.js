@@ -4,7 +4,7 @@ import Hero from '../Hero/Hero.js';
 import Column from '../Column/Column.js';
 import Creator from '../Creator/Creator.js';
 import PropTypes from 'prop-types';
-import {settings} from '../../data/dataStore';
+import {listData, settings} from '../../data/dataStore';
 import ReactHtmlParser from 'react-html-parser';
 
 class List extends React.Component {
@@ -15,13 +15,15 @@ class List extends React.Component {
   
   static propTypes = {
     title: PropTypes.node.isRequired,
+    source: PropTypes.string,
     description: PropTypes.node,
     columns: PropTypes.array,
-    source: PropTypes.string.isRequired,
+    image: PropTypes.node,
   }
 
   static defaultProps = {
     description: settings.defaultListDescription,
+    source: listData.image,
   }
 
   //dodaj do this.state.columns nowy obiekt
@@ -44,7 +46,7 @@ class List extends React.Component {
   render() {
     return (
       <section className={styles.component}>
-        <Hero titleText={this.props.title} imageSource={this.props.source}/>
+        <Hero titleText={this.props.title} imageSource={this.props.image}/>
         <div className={styles.description}>{ReactHtmlParser(this.props.description)}</div>
         <div className={styles.columns}>
           {this.state.columns.map(({key, ...columnProps}) => ( //metoda .map działa jak pętla - komponent Column zostanie użyty raz; key - klucz, wyrażenie nadane każdej kolumnie

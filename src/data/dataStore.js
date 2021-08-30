@@ -14,6 +14,7 @@ export const settings = {
   defaultColumnIcon: 'list-alt',
 };
 
+
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',

@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Button.scss';
 
+// eslint-disable-next-line react/prop-types
 const Button = ({variant = '', ...otherProps}) => (
   <button 
     {...otherProps} 

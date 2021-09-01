@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './List.scss';
 import Hero from '../Hero/Hero.js';
-import Column from '../Column/Column.js';
+import Column from '../Column/ColumnContainer.js';
 //import Creator from '../Creator/Creator.js';
 import PropTypes from 'prop-types';
 import {listData, settings} from '../../data/dataStore';

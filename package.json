@@ -22,15 +22,13 @@
   "dependencies": {
     "http-server": "^13.0.1",
     "prop-types": "^15.7.2",
-    "querystring": "^0.2.0",
     "react": "^16.7.0",
     "react-beautiful-dnd": "^13.1.0",
     "react-dom": "^16.7.0",
     "react-html-parser": "^2.0.2",
     "react-redux": "^7.0.1",
     "redux": "^4.0.1",
-    "shortid": "^2.2.16",
-    "uuid": "^3.4.0"
+    "shortid": "^2.2.16"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",

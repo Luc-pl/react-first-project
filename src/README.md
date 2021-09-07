@@ -1,1 +1,1 @@
-https://git.heroku.com/polar-river-06959.git
+https://git.heroku.com/app-list-react.git

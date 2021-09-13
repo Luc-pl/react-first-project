@@ -104,7 +104,7 @@ const lists = [
     image: 'https://image.freepik.com/free-vector/telecommuting-concept-illustration_114360-1600.jpg',
   },
   {
-    id: 'list-3',
+    id: 'list-4',
     title: 'Free time activities',
     description: 'Interesting free time activities',
     image: 'https://image.freepik.com/free-vector/girl-enjoying-their-free-time_23-2148208613.jpg',

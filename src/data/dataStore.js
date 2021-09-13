@@ -16,13 +16,13 @@ export const settings = {
 
 export const infoContent = {
   title: 'Basic Informations',
-  imageSource: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  image: 'https://image.freepik.com/free-vector/email-service-concept-set-applications-online-correspondence-messaging_9209-6076.jpg',
   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 };
 
 export const FAQContent = {
   title: 'FAQ - common questions',
-  imageSource: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  image: 'https://image.freepik.com/free-vector/faq-question-concept-customer-support-flat-vector-illustration_128772-1092.jpg',
   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 };
 
@@ -87,9 +87,27 @@ export const listData = {
 const lists = [
   {
     id: 'list-1',
-    title: 'Things to do <sup>soon!</sup>',
+    title: 'Personal- Things to do <sup>soon!</sup>',
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  {
+    id: 'list-2',
+    title: 'Family - Things to do <sup>soon!</sup>',
+    description: 'Family time!',
+    image: 'https://image.freepik.com/free-vector/parents-preparing-cute-daughter-school-love-study-backpack-flat-illustration-cartoon-illustration_74855-14475.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Work - Things to do <sup>soon!</sup>',
+    description: 'So many things!',
+    image: 'https://image.freepik.com/free-vector/telecommuting-concept-illustration_114360-1600.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Free time activities',
+    description: 'Interesting free time activities',
+    image: 'https://image.freepik.com/free-vector/girl-enjoying-their-free-time_23-2148208613.jpg',
   },
 ];
 

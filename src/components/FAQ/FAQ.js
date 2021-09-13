@@ -5,7 +5,7 @@ import Hero from '../Hero/Hero';
 
 const FAQ = () => (
   <Container>
-    <Hero titleText={FAQContent.title} imageSource={FAQContent.imageSource} />
+    <Hero titleText={FAQContent.title} image={FAQContent.image} />
     <div>
       {FAQContent.content}
     </div>  

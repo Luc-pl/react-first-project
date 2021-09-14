@@ -16,13 +16,13 @@ export const settings = {
 
 export const infoContent = {
   title: 'Basic Informations',
-  image: 'https://image.freepik.com/free-vector/email-service-concept-set-applications-online-correspondence-messaging_9209-6076.jpg',
+  imageSource: 'https://image.freepik.com/free-vector/email-service-concept-set-applications-online-correspondence-messaging_9209-6076.jpg',
   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 };
 
 export const FAQContent = {
   title: 'FAQ - common questions',
-  image: 'https://image.freepik.com/free-vector/faq-question-concept-customer-support-flat-vector-illustration_128772-1092.jpg',
+  imageSource: 'https://image.freepik.com/free-vector/faq-question-concept-customer-support-flat-vector-illustration_128772-1092.jpg',
   content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 };
 
@@ -98,7 +98,7 @@ const lists = [
     image: 'https://image.freepik.com/free-vector/parents-preparing-cute-daughter-school-love-study-backpack-flat-illustration-cartoon-illustration_74855-14475.jpg',
   },
   {
-    id: 'list-3',
+    id:'list-3',
     title: 'Work - Things to do <sup>soon!</sup>',
     description: 'So many things!',
     image: 'https://image.freepik.com/free-vector/telecommuting-concept-illustration_114360-1600.jpg',
@@ -143,37 +143,31 @@ const cards = [
     id: 'card-1',
     columnId: 'column-1',
     title: 'This Is Going to Hurt',
-    index: 0,
   },
   {
     id: 'card-2',
     columnId: 'column-1',
     title: 'Interpreter of Maladies',
-    index: 1,
   },
   {
     id: 'card-3',
     columnId: 'column-2',
     title: 'Harry Potter',
-    index: 0,
   },
   {
     id: 'card-4',
     columnId: 'column-2',
     title: 'Star Wars',
-    index: 1,
   },
   {
     id: 'card-5',
     columnId: 'column-3',
     title: 'The Witcher',
-    index: 0,
   },
   {
     id: 'card-6',
     columnId: 'column-3',
     title: 'Skyrim',
-    index: 1,
   },
 ];
 

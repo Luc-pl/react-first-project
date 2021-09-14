@@ -5,13 +5,14 @@ import Container from '../Container/Container';
 import Icon from '../Icon/Icon';
 import Search from '../Search/Search';
 
+
 class Header extends React.Component {
   render(){
     return (
       <header className={styles.component}>
         <Container>
           <div className={styles.wrapper}>
-            <Link to='/' className={styles.logo}>
+            <Link className={styles.logo} to='/'>
               <Icon name='wallet' />
               <p>To-Do app</p>
             </Link>

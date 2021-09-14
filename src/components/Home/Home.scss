@@ -22,3 +22,7 @@
 .title + .subtitle {
   margin-top: (- $base-size * 3);
 }
+
+p {
+  font-family: $font-logo;
+}
